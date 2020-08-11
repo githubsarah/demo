@@ -3,12 +3,12 @@ package com.commend.demo;
 public class Room {
     private final long id;
     private final String name;
-    private final long roomnr;
+    private final long roomno;
     private final String content;
 
-    public Room(long id, long roomnr, String name, String content) {
+    public Room(long id, long roomno, String name, String content) {
         this.id = id;
-        this.roomnr = roomnr;
+        this.roomno = roomno;
         this.name = name;
         this.content = content;
 
@@ -22,8 +22,8 @@ public class Room {
         return content;
     }
 
-    public long getRoomnr() {
-        return roomnr;
+    public long getRoomno() {
+        return roomno;
     }
 
     public String getName() {

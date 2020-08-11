@@ -16,6 +16,6 @@ public class DemoApplication {
 
     @GetMapping("/api/hello")
     public Room hello(@RequestParam(value = "name", defaultValue = "World") String name) {
-        return new Room(1, 12, "Max Mustermann" , "Autist");
+        return new Room(1, 12, "Max Mustermann", "Bitte laut mit Max sprechen!");
     }
 }
